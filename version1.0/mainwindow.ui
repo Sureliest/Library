@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>353</width>
+    <height>211</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>322</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>111</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="kind_button">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="3">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>请登录！</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>353</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>选项（&amp;O）</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_I"/>
+    <addaction name="separator"/>
+    <addaction name="action_D"/>
+    <addaction name="separator"/>
+    <addaction name="action_E"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+  </widget>
+  <action name="action_S">
+   <property name="icon">
+    <iconset>
+     <normaloff>D:/WEB NET/ECNMY 16 - ICON PACK/DRK/02 - PNGS/CD DVD/CD (48).png</normaloff>D:/WEB NET/ECNMY 16 - ICON PACK/DRK/02 - PNGS/CD DVD/CD (48).png</iconset>
+   </property>
+   <property name="text">
+    <string>搜索（&amp;S）</string>
+   </property>
+   <property name="toolTip">
+    <string>搜索(S)</string>
+   </property>
+  </action>
+  <action name="action_E">
+   <property name="icon">
+    <iconset>
+     <normaloff>D:/WEB NET/ECNMY 16 - ICON PACK/DRK/02 - PNGS/Music/Music (32).png</normaloff>D:/WEB NET/ECNMY 16 - ICON PACK/DRK/02 - PNGS/Music/Music (32).png</iconset>
+   </property>
+   <property name="text">
+    <string>退出（&amp;E）</string>
+   </property>
+   <property name="toolTip">
+    <string>退出(E)</string>
+   </property>
+  </action>
+  <action name="action_I">
+   <property name="icon">
+    <iconset>
+     <normaloff>D:/WEB NET/ECNMY 16 - ICON PACK/DRK/02 - PNGS/Default/Default (48).png</normaloff>D:/WEB NET/ECNMY 16 - ICON PACK/DRK/02 - PNGS/Default/Default (48).png</iconset>
+   </property>
+   <property name="text">
+    <string>用户登录（&amp;I）</string>
+   </property>
+  </action>
+  <action name="action_D">
+   <property name="icon">
+    <iconset>
+     <normaloff>D:/WEB NET/ECNMY 16 - ICON PACK/DRK/02 - PNGS/Favorite/Favorite (48).png</normaloff>D:/WEB NET/ECNMY 16 - ICON PACK/DRK/02 - PNGS/Favorite/Favorite (48).png</iconset>
+   </property>
+   <property name="text">
+    <string>用户注销（&amp;D）</string>
+   </property>
+   <property name="toolTip">
+    <string>用户注销(D)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
